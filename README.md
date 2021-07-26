@@ -7,9 +7,8 @@
 	1. [Libraries](#Libraries)
 	2. [Executing Program](#execution)
 	3. [Additional Material](#material)
-3. [Authors](#authors)
-4. [License](#license)
-5. [Acknowledgement](#acknowledgement)
+3. [License](#license)
+4. [Acknowledgement](#acknowledgement)
 
 
 ## Project Description
@@ -56,6 +55,11 @@ Run a web app, display results in a flash web app, creat data visualizations.
  ### Additional Material
  
  The following is the screenshot of an example of the search result:
+ ![Intro Pic](screenshots/example of search result.png)
  
+ ## Acknowledgements
+
+* [Udacity](https://www.udacity.com/) for providing an amazing Data Science Nanodegree Program
+* [Figure Eight](https://www.figure-eight.com/) for providing the relevant dataset to train the model
  
 
