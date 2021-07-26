@@ -55,7 +55,7 @@ Run a web app, display results in a flash web app, creat data visualizations.
  ### Additional Material
  
  The following is the screenshot of an example of the search result:
-![Intro Pic](screenshots/example of search result.png)
+![Intro Pic](screenshots/example_of_search_result.png)
  
  ## Acknowledgements
 
