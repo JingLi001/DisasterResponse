@@ -8,4 +8,8 @@ This project is divided in the following key steps:
 Load the raw csv-file provided, extract the messages and categories as a dataframe, clean the data and load it into an SQLite database.
 ### 2. Machine Learning pipeline
 Build a machine learning pipeline using NLTK, as well as scikit-learn's pipeline and GridSearchCV, export the model to a pickle file.
+### 3. Flask App
+Run a web app, display results in a flash web app, creat data visualizations.
+
+
 
