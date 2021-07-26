@@ -24,6 +24,8 @@ Build a machine learning pipeline using NLTK, as well as scikit-learn's pipeline
 ### 3. Flask App
 Run a web app, display results in a flash web app, creat data visualizations.
 
+## Getting Started
+
 ### Libraries 
 - re
 - Pandas
@@ -34,5 +36,26 @@ Run a web app, display results in a flash web app, creat data visualizations.
 - Flask
 - Plotly
 
+### Executing Program:
+1. You can run the following commands in the project's directory to set up the database, train model and save the model.
 
+    - To run ETL pipeline to clean data and store the processed data in the database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response_db.db`
+    - To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file
+        `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
+
+2. Run the following command in the app's directory to run your web app.
+    `python run.py`
+
+3. Open another Terminal Windows and type:
+     `env|grep WORK`
+4. In a new web browser window, type in the following:
+     http://SPACEID-3001.SPACEDOMAIN
+  The number 3001 represents the port where your web app will show up. Make sure that the 3001 is part of the web address you type in.
+  
+ ### Additional Material
+ 
+ The following is the screenshot of an example of the search result:
+ 
+ 
 
